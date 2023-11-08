@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>570</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>150</y>
+     <width>601</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>地点</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>物价名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>费用</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>地点2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>物价名称2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>费用2</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>601</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>地点：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>北京</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>上海</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>物价名称：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item row="0" column="5">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>搜索</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>转换地点：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2" colspan="2">
+     <widget class="QComboBox" name="comboBox_2">
+      <item>
+       <property name="text">
+        <string>北京</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>上海</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>转换</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
